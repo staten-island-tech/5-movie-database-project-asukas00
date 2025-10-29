@@ -35,7 +35,13 @@ for i in data:
         print(i["title"])
          """
 
-x = input("what genre?").lower()
+""" x = input("what genre?")
+for i in data:
+    if x in i["genres"]:
+        print(i["title"]) """
+
+
+x = input("what genre?")
 for i in data:
     if x in i["genres"]:
         print(i["title"])

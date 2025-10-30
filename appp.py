@@ -1,4 +1,4 @@
-def broke(quarters, m1, m2, m3):
+""" def broke(quarters, m1, m2, m3):
     M1 = 35 - m1
     M2 = 100 - m2
     M3 = 10 - m3
@@ -28,5 +28,8 @@ def broke(quarters, m1, m2, m3):
                 print(f"Martha played {numplays} before going broke")
                 break
 broke(10,9,5,9)
+
+
+ """
 
 

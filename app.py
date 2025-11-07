@@ -42,6 +42,13 @@ for i in data:
 
 
 x = input("what genre?")
-for i in data:
-    if x in i["genres"]:
+moviegenrenotfound = True
+i = movies in data
+while True:
+    # Check if the genre exists in the movie's genre list
+    if x in [genre.lower() for genre in i["genres"]]:
         print(i["title"])
+        moviegenrenotfound = False
+    if moviegenrenotfound:
+        print("No movies found with that genre.")
+        break
